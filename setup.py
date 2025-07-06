@@ -16,8 +16,8 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="SimpleSCPI",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Alen Feng",
+    author_email="mail_along@163.com",
     description="一个简单易用的 SCPI 仪器控制工具",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -45,7 +45,7 @@ setup(
         ],
     },
     package_data={
-        "src": ["resources/*", "config/*"],
+        "src": ["resources/*"],
     },
     include_package_data=True,
     zip_safe=False,

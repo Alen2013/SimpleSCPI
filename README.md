@@ -26,13 +26,8 @@
    ```bash
    # 使用项目提供的环境文件
    cd SimpleSCPI
-   conda env create -f src/config/env_simple.yaml
-   conda activate simple2
-   ```
-
-3. **安装额外依赖**
-   ```bash
-   pip install pyvisa qdarkstyle
+   conda env create -f environment.yml
+   conda activate simplescpi
    ```
 
 ### 方法二：使用 pip 安装
@@ -106,9 +101,9 @@ SimpleSCPI/
 │   │   ├── base.py         # 基础类
 │   │   └── exceptions.py   # 异常处理
 │   ├── ui/                 # 用户界面
-│   ├── config/             # 配置文件
 │   └── resources/          # 资源文件
 ├── requirements.txt        # Python 依赖
+├── environment.yml         # Conda 环境配置
 └── README.md              # 说明文档
 ```
 

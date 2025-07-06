@@ -5,11 +5,8 @@
 ### 使用 Conda（推荐）
 ```bash
 # 创建环境
-conda env create -f src/config/env_simple.yaml
-conda activate simple2
-
-# 安装额外依赖
-pip install pyvisa qdarkstyle
+conda env create -f environment.yml
+conda activate simplescpi
 ```
 
 ### 使用 pip

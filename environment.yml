@@ -1,0 +1,11 @@
+name: simplescpi
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - PyQt5>=5.15.6
+    - PyVISA>=1.11.0
+    - QDarkStyle>=3.0.0

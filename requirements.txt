@@ -1,4 +1,4 @@
-# SimpleSCPI 依赖包
-PyQt5>=5.15.0
+# SimpleSCPI 核心依赖
+PyQt5>=5.15.6
 PyVISA>=1.11.0
 QDarkStyle>=3.0.0 
