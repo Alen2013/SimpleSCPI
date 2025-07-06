@@ -17,7 +17,7 @@
 
 ```bash
 # Fork 并克隆项目
-git clone https://github.com/yourusername/SimpleSCPI.git
+git clone https://github.com/Alen2013/SimpleSCPI.git
 cd SimpleSCPI
 
 # 创建虚拟环境

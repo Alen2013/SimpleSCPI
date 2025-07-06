@@ -40,6 +40,20 @@ python main.py
 - USB: `USB0::0x1234::0x5678::SN123456::INSTR`
 - 串口: `ASRL1::INSTR`
 
-## 5. 需要帮助？
+## 5. 打包程序（可选）
+
+如果需要创建独立的可执行文件：
+
+```bash
+# 安装 PyInstaller
+pip install pyinstaller
+
+# 打包程序
+pyinstaller SimpleSCPI.spec
+```
+
+打包后的程序位于 `dist/SimpleSCPI.exe`。
+
+## 6. 需要帮助？
 
 查看 [README.md](README.md) 了解详细使用说明。 

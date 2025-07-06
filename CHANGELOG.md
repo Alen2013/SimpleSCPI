@@ -18,6 +18,7 @@
 - 支持 Write 和 Query 两种命令类型
 - 完善的错误处理和异常管理
 - 跨平台支持（Windows、macOS、Linux）
+- PyInstaller 打包支持，可生成独立可执行文件
 
 ---
 

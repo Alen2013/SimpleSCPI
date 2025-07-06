@@ -59,14 +59,19 @@ coverage.xml
 *.ui~
 *.qrc~
 
-# 打包文件
-*.spec
+# 打包文件（保留 spec 配置文件）
 dist/
 build/
+*.exe
 
 # 项目图片文件（不忽略）
 !images/
 !images/*
+
+# 项目特定文件
+test.log
+*.bak
+scpi_config_auto.json
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

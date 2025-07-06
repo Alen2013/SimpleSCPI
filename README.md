@@ -74,6 +74,20 @@ cd src
 python main.py
 ```
 
+## 📦 程序打包
+
+使用 PyInstaller 将程序打包成独立的可执行文件：
+
+```bash
+# 安装 PyInstaller
+pip install pyinstaller
+
+# 打包程序
+pyinstaller SimpleSCPI.spec
+```
+
+打包后的可执行文件位于 `dist/SimpleSCPI.exe`，可以在没有 Python 环境的计算机上直接运行。
+
 ## 📖 使用说明
 
 ### 1. 连接仪器
@@ -107,8 +121,11 @@ SimpleSCPI/
 │   │   ├── base.py         # 基础类
 │   │   └── exceptions.py   # 异常处理
 │   ├── ui/                 # 用户界面
+│   │   ├── main_window.py   # 主窗口逻辑
+│   │   └── MainUI.py       # UI 定义
 │   └── resources/          # 资源文件
 ├── images/                 # 项目截图
+├── SimpleSCPI.spec         # PyInstaller 配置
 ├── requirements.txt        # Python 依赖
 ├── environment.yml         # Conda 环境配置
 └── README.md              # 说明文档
@@ -139,7 +156,7 @@ SimpleSCPI/
 
 ## 📞 联系
 
-- 项目主页：[GitHub](https://github.com/yourusername/SimpleSCPI)
+- 项目主页：[GitHub](https://github.com/Alen2013/SimpleSCPI)
 - 问题反馈：[Issues](../../issues)
 
 ---
