@@ -6,6 +6,12 @@
 
 一个简单易用的 SCPI 仪器控制工具，基于 PyQt5 开发，提供图形界面来控制和测试 SCPI 兼容的测试仪器。
 
+## 📸 界面预览
+
+![SimpleSCPI 主界面](images/screenshot.png)
+
+*SimpleSCPI 主界面 - 现代化的深色主题界面*
+
 ## ✨ 主要功能
 
 - **多协议支持**：TCP/IP、USB、串口连接
@@ -102,6 +108,7 @@ SimpleSCPI/
 │   │   └── exceptions.py   # 异常处理
 │   ├── ui/                 # 用户界面
 │   └── resources/          # 资源文件
+├── images/                 # 项目截图
 ├── requirements.txt        # Python 依赖
 ├── environment.yml         # Conda 环境配置
 └── README.md              # 说明文档

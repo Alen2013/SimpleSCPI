@@ -92,6 +92,9 @@ class MainWindow(QMainWindow, Ui_MainWindow, BaseObject):
         self.set_log('MAIN', 'test.log')
         
         self.setupUi(self)
+        
+        # 设置窗口标题包含版本信息
+        self.setWindowTitle("SimpleSCPI v1.0.0")
         self.splitter.setSizes([300, 200])
         self.splitter_2.setSizes([400, 180])
         self.StatusSplit()
